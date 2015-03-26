@@ -6,7 +6,7 @@ module OmniAuth
       option :name, :rootsrated
 
       option :client_options, {
-        :site => "http://localhost:4000",
+        :site => "https://dashboard.rootsrated.com",
         :authorize_path => "/oauth/authorize"
       }
 
