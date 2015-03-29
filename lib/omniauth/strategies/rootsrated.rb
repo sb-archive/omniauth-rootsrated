@@ -8,6 +8,7 @@ module OmniAuth
       option :client_options, {
         :site => "https://dashboard.rootsrated.com",
         :authorize_url => "/oauth2/authorize",
+        :token_url => "/oauth2/token",
       }
 
       uid { raw_info["id"] }
